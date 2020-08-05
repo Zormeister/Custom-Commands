@@ -1,8 +1,9 @@
-title Custom Commands Installer V1.0 (by Zormeister)
+title Zor CC 2020.8(by Zormeister)
 
 echo. ------------- Custom Commands V1 --------------
 echo. Hey! nice to see that someone decided to try this!
 echo. ther will be more skus coming eventually 
+echo. (this is an auto-install)
 echo. -----------------------------------------------
 pause
 
@@ -34,7 +35,7 @@ echo            [1] X64
 echo
 echo            [2] X86
 echo =================================
-if errorlevel 1 bitsadmin /transfer "Custom Commands All X64 V1" replace text with link C:\(file name)
+if errorlevel 1 bitsadmin /transfer "Zor CC 2020.8" replace text with link C:\(file name)
 
 
 all
